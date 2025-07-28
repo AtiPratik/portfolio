@@ -10,6 +10,16 @@
 .main .navbar nav .nav .nav_hidden_menu{
     display: block;
 }
+.main .navbar nav .nav .nav_contact{
+    width: 25%;
+    background: white;
+    height: 100%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 .main .banner header .home_banner{
     width: 90%;
     margin: auto;
