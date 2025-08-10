@@ -9,11 +9,12 @@
 }
 .main .navbar{
     width: 100%;
-    margin-top: 15px;
+    padding: 15px 0px;
     position: sticky;
-    top: 15px;
+    top: 0;
     left: 0;
     z-index: 999;
+    background-color: white;
 }
 .main .navbar nav{
     width: 90%;
@@ -56,6 +57,7 @@
     align-items: center;
     padding: 0px 5px;
     color: white;
+    font-size: 25px;
 }
 .main .navbar nav .nav .nav_hidden_menu{
     width: 30%;
@@ -326,6 +328,7 @@
 .main .service .services .title .subheading a{
     text-decoration: none;
     color: goldenrod;
+    font-style: italic;
 }
 .main .service .services .title .buttons{
     width: 180px;
@@ -356,4 +359,471 @@
     justify-content: center;
     align-items: center;
     margin-left: 5px;
+}
+.main .service .services .cards{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    margin-left: 5px;
+}
+.main .service .services .cards .card{
+    width: 32%;
+    margin-top: 20px;
+    background-color: rgb(202, 202, 231);
+    border-radius: 10px;
+    padding: 20px 0px;
+}
+.main .service .services .cards .card .logo{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: white;
+    margin-left: 5%;
+}
+.main .service .services .cards .card .title{
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 18px;
+}
+.main .service .services .cards .card .subtitle{
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    color: gray;
+}
+.main .service .services .cards .card .btn{
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    color: teal;
+}
+.main .service .services .cards .card .btn i{
+    font-size: 10px;
+    color: goldenrod;
+}
+.main .about{
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    background-color: teal;
+}
+.main .about .about_me{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: white;
+}
+.main .about .about_me .about_image{
+    width: 48%;
+    margin: auto;
+}
+.main .about .about_me .about_detail{
+    width: 48%;
+    margin: auto;
+    padding: 30px 0px;
+}
+.main .about .about_me .about_detail .head{
+    display: flex;
+    align-items: center;
+    height: 40px;
+}
+.main .about .about_me .about_detail .head .gap{
+    height: 4px;
+    width: 20px;
+    background-color: goldenrod;
+}
+.main .about .about_me .about_detail .head .heading{
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 10px;
+}
+.main .about .about_me .about_detail .title{
+    margin-top: 15px;
+    font-size: 35px;
+}
+.main .about .about_me .about_detail .title a{
+    font-style: italic;
+    text-decoration: none;
+    color: goldenrod;
+}
+.main .about .about_me .about_detail .subtitle{
+    margin-top: 15px;
+}
+.main .about .about_me .about_detail .cards{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    margin-left: 5px;
+}
+.main .about .about_me .about_detail .cards .card{
+    width: 32%;
+    border-radius: 10px;
+    padding: 20px 0px;
+}
+.main .about .about_me .about_detail .cards .card .title{
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 25px;
+    color: goldenrod;
+}
+.main .about .about_me .about_detail .cards .card .subtitle{
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+}
+.main .about .about_me .about_detail .btns{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+.main .about .about_me .about_detail .btns .buttons{
+    width: 180px;
+    height: 36px;
+    background-color: goldenrod;
+    border-radius: 18px;
+    border: 1px solid goldenrod;
+    display: flex;
+    align-items: center;
+}
+.main .about .about_me .about_detail .btns .buttons .btn{
+    background-color: teal;
+    width: calc(100% - 40px);
+    height: 36px;
+    border-radius: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 13px;
+}
+.main .about .about_me .about_detail .btns .buttons .circle{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+    color: teal;
+}
+.main .projects{
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+}
+.main .projects .my_projects{
+    width: 100%;
+    height: auto;
+}
+.main .projects .my_projects .head{
+    display: flex;
+    align-items: center;
+    height: 40px;
+}
+.main .projects .my_projects .head .gap{
+    height: 4px;
+    width: 20px;
+    background-color: goldenrod;
+}
+.main .projects .my_projects .head .heading{
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+.main .projects .my_projects .title{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main .projects .my_projects .title .subheading{
+    font-size: 35px;
+    font-weight: 500;
+}
+.main .projects .my_projects .title .subheading a{
+    text-decoration: none;
+    color: goldenrod;
+    font-style: italic;
+}
+.main .projects .my_projects .title .buttons{
+    width: 180px;
+    height: 36px;
+    background-color: goldenrod;
+    border-radius: 18px;
+    border: 1px solid goldenrod;
+    display: flex;
+    align-items: center;
+}
+.main .projects .my_projects .title .buttons .btn{
+    background-color: teal;
+    width: calc(100% - 40px);
+    height: 36px;
+    border-radius: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 13px;
+}
+.main .projects .my_projects .title .buttons .circle{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+}
+.main .projects .my_projects .cards{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    margin-left: 5px;
+}
+.main .projects .my_projects .cards .card{
+    width: 48%;
+    margin-top: 20px;
+    background-color: rgb(202, 202, 231);
+    border-radius: 10px;
+    padding: 20px 0px;
+}
+.main .projects .my_projects .cards .card .logo{
+    height: 400px;
+    width: 90%;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: white;
+    margin: auto;
+}
+.main .projects .my_projects .cards .card .logo img{
+    height: 100%;
+    width: 100%;
+    transition: 1s;
+}
+.main .projects .my_projects .cards .card .logo img:hover{
+    transform: scale(1.2);
+}
+.main .projects .my_projects .cards .card .title{
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    /* justify-content: flex-start; */
+}
+.main .projects .my_projects .cards .card .title .bttn{
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    background-color: goldenrod;
+    border-radius: 12.5px;
+    color: teal;
+}
+.main .projects .my_projects .cards .card .subtitle{
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main .projects .my_projects .cards .card .subtitle .text{
+    width: 75%;
+    font-weight: 500;
+    font-size: 20px;
+}
+.main .projects .my_projects .cards .card .subtitle .more{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: teal;
+    color: white;
+}
+.main .qualification{
+    width: 100%;
+    margin-top: 30px;
+}
+.main .qualification .quality{
+    width: 90%;
+    margin: auto;
+}
+.main .qualification .quality .head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+}
+.main .qualification .quality .head .gap{
+    height: 4px;
+    width: 20px;
+    background-color: goldenrod;
+}
+.main .qualification .quality .head .heading{
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+.main .qualification .quality .title{
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 500;
+}
+.main .qualification .quality .title a{
+    text-decoration: none;
+    color: goldenrod;
+    font-style: italic;
+}
+.main .qualification .quality .cards{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.main .qualification .quality .cards .card{
+    width: 48%;
+    background-color: rgb(222, 235, 238);
+    border-radius: 10px;
+    padding: 15px 0px;
+    margin-top: 20px;
+}
+.main .qualification .quality .cards .card .head{
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.main .qualification .quality .cards .card .head .logo{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: goldenrod;
+}
+.main .qualification .quality .cards .card .head .name{
+    font-size: 22px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+.main .qualification .quality .cards .card .detail{
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    border-left: 2px solid grey;
+}
+.main .qualification .quality .cards .card .detail .year{
+    color: gray;
+    font-size: 13px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.main .qualification .quality .cards .card .detail .instititude{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.main .qualification .quality .cards .card .detail .subject{
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: rgb(73, 72, 72);
+}
+.main .tools{
+    width: 100%;
+    margin-top: 25px;
+    padding: 10px 0px;
+    background: teal;
+}
+.main .tools .my_tools{
+    width: 90%;
+    margin: auto;
+    color: white;
+}
+.main .tools .my_tools .head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+}
+.main .tools .my_tools .head .gap{
+    height: 4px;
+    width: 20px;
+    background-color: goldenrod;
+}
+.main .tools .my_tools .head .heading{
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+.main .tools .my_tools .title{
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 500;
+}
+.main .tools .my_tools .title a{
+    text-decoration: none;
+    color: goldenrod;
+    font-style: italic;
+}
+.main .tools .my_tools .favourite_tools{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.main .tools .my_tools .favourite_tools .tools_sec{
+    width: 100%;
+    margin-top: 20px;
+    padding: 20px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.main .tools .my_tools .favourite_tools .tools_sec .tool{
+    margin-top: 10px;
+    width: 48%;
+}
+.main .tools .my_tools .favourite_tools .tools_sec .tool .name{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.main .tools .my_tools .favourite_tools .tools_sec .tool .know{
+    width: 100%;
+    margin: auto;
+    margin-top: 2px;
+    height: 4px;
+    border-radius: 3px;
+    border: 1px solid white;
+    display: flex;
+}
+.main .tools .my_tools .favourite_tools .tools_sec .tool .know .percen{
+    width: 90%;
+    height: 4px;
+    background: white;
 }
